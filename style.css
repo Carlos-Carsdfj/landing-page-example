@@ -205,7 +205,7 @@ height: 180px;
 
 
 
-/* primera pagina */
+/* segunda pagina */
 
 
 
@@ -661,6 +661,7 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
        
     }
 
+   
 
     .div-dogs h2 {
         
@@ -697,13 +698,20 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
         min-height: max-content;
     
     }
+    
+#nav-bar{
+
+    display: none;
+}
+
+
 
     .div-description{
         /* margin-top: 10px; */
         width: 90%;
         max-width: 400px;
         margin: auto;
-        padding: 0 20px; 
+        padding: 0 10px; 
         
     }
     
@@ -766,10 +774,9 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     
     }
     .meet-description{
+
         align-self: center;
-      
-        height: auto;
-        
+        height: auto;  
         
     }
     
@@ -796,5 +803,37 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     padding:0;
     }
 
+
+    .div-description h2 {
+        font-size: 1.5em;
+        
+    }
+    .div-description p{
+    
+        font-size: medium;
+    }
+    #adoptar-form h2{
+        font-size: 40px;
+    }
+    .meet-description h2 { 
+        
+        font-size: 40px;
+        line-height: 60px;
+      
+    }
+    
+/* .meet-description h2 {
+    color: #980052;
+    font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+text-align: left;
+text-transform: uppercase;
+width: 700px;
+height: 150px;
+margin: auto; 
+padding-left: 10px;
+} */
 
 }
